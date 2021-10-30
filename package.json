@@ -2,9 +2,11 @@
   "name": "i18n-l10n",
   "version": "0.0.0",
   "scripts": {
+    "extract-18n": "ng extract-i18n --output-path src/locale",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-localize": "ng build --localize",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

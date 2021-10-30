@@ -5,7 +5,10 @@
   "projects": {
     "i18n-L10n": {
       "i18n": {
-        "sourceLocale": "en-US"
+        "sourceLocale": "en-US",
+        "locales": {
+          "zh-Hans": "src/locale/messages.zh-Hans.xlf"
+        }
       },
       "projectType": "application",
       "schematics": {
@@ -20,6 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
             "outputPath": "dist/i18n-L10n",
             "index": "src/index.html",
             "main": "src/main.ts",
