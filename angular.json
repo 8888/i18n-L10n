@@ -4,6 +4,9 @@
   "newProjectRoot": "projects",
   "projects": {
     "i18n-L10n": {
+      "i18n": {
+        "sourceLocale": "en-US"
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
